@@ -1,3 +1,4 @@
+# coding=utf-8
 #Dicionários
 
 #Armazenam chaves e valores que são interligados entre si por meio de : e chaves separadas por ,

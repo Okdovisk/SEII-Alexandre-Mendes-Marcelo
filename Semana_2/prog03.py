@@ -1,3 +1,5 @@
+# coding=utf-8
+#Operadores matemáticos, comparativos e tipos de variáveis numéricas.
 num = 3.14
 
 print(type(num))

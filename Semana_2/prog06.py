@@ -1,4 +1,5 @@
-# Conditionals and Booleans - If, Else, and Elif Statements
+# coding=utf-8
+# Condicionais e Booleanos - If, Else, e Elif
 
 language = 'Python'
 

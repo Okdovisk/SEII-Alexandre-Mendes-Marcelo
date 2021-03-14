@@ -1,3 +1,5 @@
+# coding=utf-8
+#Listas, tupples e sets
 courses = ['History', 'Math', 'Pshysics', 'CompSci'] #Cria uma lista. O que diferencia a criação de uma lista da criação de um tupple são as []. Fosse uma tupple seiram ()
 empty_list = [] #Criação de uma lista vazia
 empty_list = list()
