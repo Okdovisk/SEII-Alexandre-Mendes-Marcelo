@@ -3,6 +3,7 @@
 #Analisando nomes de um arquivo csv para uma lista HTML
 
 import csv
+
 html_output = ''
 names = []
 
