@@ -8,6 +8,7 @@ class Numero_complexo{
 
     public:
         Numero_complexo(float _parte_real, float _parte_imaginaria);
+        ~Numero_complexo();
         void exibe();
         void emPolar();
         float getReal();
@@ -23,6 +24,9 @@ class Numero_complexo{
 Numero_complexo::Numero_complexo(float _parte_real, float _parte_imaginaria){
     parte_real = _parte_real;
     parte_imaginaria = _parte_imaginaria;
+}
+
+Numero_complexo::~Numero_complexo(){
 }
 
 void Numero_complexo::exibe(){

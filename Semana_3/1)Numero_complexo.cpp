@@ -36,5 +36,12 @@ int main(){
     cout << "Parte real da divisão: " << sexto_numero.getReal() << endl;
     cout << "Parte imaginária(i) da divisão: " << sexto_numero.getImaginaria() << endl << endl;
 
+    primeiro_numero.~Numero_complexo();
+    segundo_numero.~Numero_complexo();
+    terceiro_numero.~Numero_complexo();
+    quarto_numero.~Numero_complexo();
+    quinto_numero.~Numero_complexo();
+    sexto_numero.~Numero_complexo();
+
     return 0;
 }
