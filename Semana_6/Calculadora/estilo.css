@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Karantina', cursive, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #5f075f;
+}
+
+input{
+    margin: 2px;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=text]{
+    width: calc(100% - 4px);
+    height: 40px;
+}
+
+input[type=button]{
+    width: 100px;
+    height: 50px;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+div#Calculadora{
+    box-shadow: 0 0 20px black;
+}
+
+div#Calculadora div{
+    display: flex;
+}
+
+div#Calculadora div input:nth-child(4){
+    background: gray;
+}
+
+div#quarta input:nth-child(1){
+    background: red;
+}
+
+div#quarta input:nth-child(1), div#Calculadora{
+    border-bottom-left-radius: 35px;
+}
+
+div#quarta input:nth-child(3){
+    background: blue;
+}
+
+div#quarta input:nth-child(4), div#Calculadora{
+    border-bottom-right-radius: 35px;
+}
+
+input[type=button]:hover{
+    filter: brightness(75%);
+}
+
+input[type=button]:active{
+    transform: scale(0.9);
+}
